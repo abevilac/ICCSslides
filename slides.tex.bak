@@ -1,0 +1,53 @@
+\documentclass{beamer}
+\usepackage{amsmath,amssymb,amstext,mathtools,array,url,bm,graphicx,color,epsfig}
+\usepackage{fullpage,setspace}
+\usepackage{authblk}
+\usepackage{filecontents}
+\usepackage{natbib}
+\usepackage{lineno}
+%\usepackage[colorlinks]{hyperref}
+\usepackage{hyperref}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage[flushleft]{threeparttable}
+
+\def\dt{\partial t}
+\def\dx{\partial x}
+\def\dy{\partial y}
+
+\def\dz{\partial z}
+\def\BE{\begin{equation}}
+\def\EE{\end{equation}}
+\def\half{\frac{1}{2}}
+\def\calT{\cal T}
+\def\Deltax{\Delta x}
+\def\Deltat{\Delta t}
+\DeclareSymbolFont{largesymbolsA}{U}{txexa}{m}{n}
+\DeclareMathSymbol{\varprod}{\mathop}{largesymbolsA}{16}
+
+
+\begin{document}
+\title[Crisis] % (optional, only for long titles)
+{The Economics of Financial Crisis}
+\subtitle{Evidence from India}
+\author[Author, Anders]{prova}
+\institute[Universities Here and There]
+\date[KPT 2004] % (optional)
+{Conference on Presentation Techniques, 2004}
+\subject{Computer Science}
+
+\frame{\titlepage}
+
+
+  \begin{frame}
+    \frametitle{This is the first slide}
+    %Content goes here
+  \end{frame}
+  \begin{frame}
+    \frametitle{This is the second slide}
+    \framesubtitle{A bit more information about this}
+    %More content goes here
+  \end{frame}
+
+
+\end{document}
